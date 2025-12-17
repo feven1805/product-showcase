@@ -8,7 +8,7 @@ A simple **React.js** application that displays a list of products with conditio
 - Conditional rendering:
   - Show **Out of Stock** badge for unavailable products.
   - Show **Featured** badge for highlighted products.
-  - Show **Premium Product** for products priced above 100.
+  - Show **Premium Product** for products priced above 20,000.
 - Images render only if available.
 
 
@@ -21,12 +21,12 @@ A simple **React.js** application that displays a list of products with conditio
 4. Start the development server
 
 
-##Technologies Used
+## Technologies Used
 
 React.js
 
-JavaScript (ES6)
+JavaScript 
 
-CSS3 (Flexbox)
+CSS3 
 
 HTML5
