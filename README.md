@@ -1,16 +1,32 @@
-# React + Vite
+# Product Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React.js** application that displays a list of products with conditional rendering and styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display multiple products using **ProductCard** components.
+- Conditional rendering:
+  - Show **Out of Stock** badge for unavailable products.
+  - Show **Featured** badge for highlighted products.
+  - Show **Premium Product** for products priced above 100.
+- Images render only if available.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+2. Navigate to the project folder
+3. Install dependencies
+4. Start the development server
+
+
+##Technologies Used
+
+React.js
+
+JavaScript (ES6)
+
+CSS3 (Flexbox)
+
+HTML5
